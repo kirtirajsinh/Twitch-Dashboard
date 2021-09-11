@@ -11,6 +11,8 @@
 
 .gridItem {
   display: flex;
+  position: relative;
+  overflow: hidden;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
@@ -22,18 +24,18 @@
   color: white;
   font-size: 14px;
   margin-right: 1em;
-  position: relative;
-  overflow: hidden;
 }
 .gridItem button{
   position: absolute;
   left:0;
   width: 20px;
+  height: 20px;
   z-index: 1;
   border-radius: 5px;
   border: 0;
   margin-left: 5px;
   margin-top: 5px;
+  background-color: #D01135;
   color: white;
   font-weight: bold;
 }
